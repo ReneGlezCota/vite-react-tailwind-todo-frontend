@@ -1,5 +1,5 @@
-import IconCheck from "./icons/IconCheck";
-import IconCross from "./icons/IconCross";
+import IconCheck from "./icons/IconCheck"
+import IconCross from "./icons/IconCross"
 
 const TodoItem = ({ todo, removeTodo, updateTodo }) => {
     return (
@@ -25,7 +25,7 @@ const TodoItem = ({ todo, removeTodo, updateTodo }) => {
                 <IconCross />
             </button>
         </article>
-    );
-};
+    )
+}
 
-export default TodoItem;
+export default TodoItem
